@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-socketio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecosystemconfig.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "pm2 start",
+    "debug": "node src/index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "Iago Ferreira",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pm2": "^4.5.1",
+    "socket.io": "2.3.0"
+  }
+}
